@@ -5,13 +5,13 @@
 
 ### #1.5 Why JS II
 
-[threejs.org](threejs.org)
-[socket.io](socket.io) : 실시간 채팅
-[ml5js.org](ml5js.org) : 머신러닝
+[threejs.org](https://threejs.org)  
+[socket.io](https://socket.io) : 실시간 채팅  
+[ml5js.org](https://ml5js.org) : 머신러닝
 
 ### #1.6 Online IDE
 
-[replit.com](replit.com)
+[replit.com](https://replit.com)
 
 ### #2.0 Your First JS Project
 
@@ -37,6 +37,11 @@ const myName = "nico"; //camel case
 ```
 
 ### #2.3 const and let
+
+const : 상수 - 항상
+let : 변수 - 가끔
+
+과거에는 var : 어떠한 규칙 X, 사용할 수 있지만 사용 X
 
 ### #2.4 Booleans
 
