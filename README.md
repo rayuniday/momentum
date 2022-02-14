@@ -38,7 +38,7 @@ const myName = "nico"; //camel case
 
 ### #2.3 const and let
 
-const : 상수 - 항상
+const : 상수 - 항상  
 let : 변수 - 가끔
 
 과거에는 var : 어떠한 규칙 X, 사용할 수 있지만 사용 X
@@ -51,10 +51,26 @@ true, false
 - 비디오가 재생되고 있는가
 - 웹사이트가 로딩되고 있는가
 
-null : 아무것도 없음. 비어 있음
+null : 아무것도 없음. 비어 있음  
 undefined : 정의되지 않음. 값이 없음
 
 ### #2.5 Arrays
+
+나열하는 방법
+뭐든 넣어도 됨
+
+```js
+const daysOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat"];
+
+console.log(daysOfWeek);
+
+// Get Item from Array
+console.log(daysOfWeek[4]);
+
+// Add one more day to the array
+daysOfWeek.push("sun");
+console.log(daysOfWeek);
+```
 
 ### #2.6 Objects
 
