@@ -74,6 +74,23 @@ console.log(daysOfWeek);
 
 ### #2.6 Objects
 
+```js
+const player = {
+  name: "nico",
+  points: 10,
+  fat: true,
+};
+console.log(player);
+console.log(player.name);
+console.log(player["name"]);
+
+player.fat = false;
+player.lastName = "potato";
+player.points = player.points + 15;
+console.log(player);
+console.log(player.points);
+```
+
 ### #2.7 Functions part One
 
 ### #2.8 Functions part Two

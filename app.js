@@ -1,29 +1,23 @@
-// const mon = "mon";
-// const tue = "tue";
-// const wed = "wed";
-// const thu = "thu";
-// const fri = "fri";
-// const sat = "sat";
-// const sun = "sun";
+const playerName = "nico";
+const playerPoints = 121212;
+const playerHansome = false;
+const playerFat = "little bit";
 
-const daysOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat"];
+// player[0] == name
+// player[1] == points
+// const player = ["nico", 1212, false, "little bit"];
 
-console.log(daysOfWeek);
+const player = {
+  name: "nico",
+  points: 10,
+  fat: true,
+};
+console.log(player);
+console.log(player.name);
+console.log(player["name"]);
 
-const nonsense = [1, 2, "hello", false, null, true, undefined, "nico"];
-
-// Get Item from Array
-console.log(daysOfWeek[4]);
-
-// Add one more day to the array
-daysOfWeek.push("sun");
-
-console.log(daysOfWeek);
-
-// const apple = "apple";
-// const potato = "potato";
-
-const toBuy = ["potato", "tomato", "pizza"];
-toBuy.push("kimbab");
-console.log(toBuy[2]);
-console.log(toBuy[98989899]);
+player.fat = false;
+player.lastName = "potato";
+player.points = player.points + 15;
+console.log(player);
+console.log(player.points);
