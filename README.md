@@ -1,18 +1,3 @@
-### #1.3 Software Requirements
-
-1. browser : inter explorer X
-2. VSCode
-
-### #1.5 Why JS II
-
-[threejs.org](https://threejs.org)  
-[socket.io](https://socket.io) : 실시간 채팅  
-[ml5js.org](https://ml5js.org) : 머신러닝
-
-### #1.6 Online IDE
-
-[replit.com](https://replit.com)
-
 ### #2.0 Your First JS Project
 
 ```html

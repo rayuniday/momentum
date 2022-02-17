@@ -1,23 +1,12 @@
-const playerName = "nico";
-const playerPoints = 121212;
-const playerHansome = false;
-const playerFat = "little bit";
+// console.log("Hello my name is Nico");
+// console.log("Hello my name is Dal");
+// console.log("Hello my name is Shigatsu");
+// console.log("Hello my name is Flynn");
 
-// player[0] == name
-// player[1] == points
-// const player = ["nico", 1212, false, "little bit"];
+function sayHello() {
+  console.log("Hello my name is C");
+}
 
-const player = {
-  name: "nico",
-  points: 10,
-  fat: true,
-};
-console.log(player);
-console.log(player.name);
-console.log(player["name"]);
-
-player.fat = false;
-player.lastName = "potato";
-player.points = player.points + 15;
-console.log(player);
-console.log(player.points);
+sayHello("nico");
+sayHello("dal");
+sayHello("lynn");
