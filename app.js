@@ -1,14 +1,37 @@
-const a = 5;
-let isNicoFat = true;
+const days = ["mon", "tue", "wed"];
 
-isNicoFat = false;
+const player = {
+  name: "Nico",
+  age: 98,
+};
 
-const me = "sexy";
-const days = [1, 2, false, true, null, undefined, "text", me];
+console.log(player);
+player.name = "nicolas";
+console.log(player);
+player.sexy = "soon";
+console.log(player);
 
-const toBuy = ["potato", "tomato", "pizza"];
-console.log(toBuy);
-toBuy[2] = "water";
-console.log(toBuy);
-toBuy.push("meat");
-console.log(toBuy);
+function plus(potato, salad) {
+  console.log(potato + salad);
+}
+
+plus(5, 10);
+plus(1.33453, 9898);
+plus(9898, 1.33453);
+
+function minusFive(potato) {
+  console.log(potato - 5);
+}
+minusFive(5, 10, 12, 34, 4, 5, 6, 7);
+
+const calculator = {
+  add: function (a, b) {
+    console.log(a + b);
+  },
+  powerof: function (a, b) {
+    console.log(1 ** 2);
+  },
+};
+
+calculator.add(5, 1);
+calculator.powerof(1, 2);
