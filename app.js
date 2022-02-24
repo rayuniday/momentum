@@ -1,37 +1,36 @@
-const days = ["mon", "tue", "wed"];
-
-const player = {
-  name: "Nico",
-  age: 98,
-};
-
-console.log(player);
-player.name = "nicolas";
-console.log(player);
-player.sexy = "soon";
-console.log(player);
-
-function plus(potato, salad) {
-  console.log(potato + salad);
-}
-
-plus(5, 10);
-plus(1.33453, 9898);
-plus(9898, 1.33453);
-
-function minusFive(potato) {
-  console.log(potato - 5);
-}
-minusFive(5, 10, 12, 34, 4, 5, 6, 7);
-
 const calculator = {
-  add: function (a, b) {
-    console.log(a + b);
+  plus: function (a, b) {
+    return a + b;
   },
-  powerof: function (a, b) {
-    console.log(1 ** 2);
+  minus: function (a, b) {
+    return a - b;
+  },
+  times: function (a, b) {
+    return a * b;
+  },
+  divide: function (a, b) {
+    return a / b;
+  },
+  power: function (a, b) {
+    return a ** b;
   },
 };
 
-calculator.add(5, 1);
-calculator.powerof(1, 2);
+const plusResult = calculator.plus(2, 3);
+const minusResult = calculator.minus(plusResult, 10);
+const timesResult = calculator.times(10, minusResult);
+const divideResult = calculator.divide(timesResult, plusResult);
+const powerResult = calculator.power(divideResult, minusResult);
+console.log(plusResult);
+console.log(minusResult);
+console.log(timesResult);
+console.log(divideResult);
+console.log(powerResult);
+
+const age = 96;
+function calculateKrAge(ageOfForeigner) {
+  return ageOfForeigner + 2;
+}
+
+const krAge = calculateKrAge(age);
+console.log(krAge);
